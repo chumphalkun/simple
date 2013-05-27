@@ -1,0 +1,23 @@
+{
+    "name": "microfis/simple",
+    "description": "",
+    "authors": [
+        {
+            "name": "Chum Phalkun",
+            "email": "chum_phalkun@yahoo.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.x"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations"
+        ],
+        "psr-0": {
+            "Microfis\\Simple": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
